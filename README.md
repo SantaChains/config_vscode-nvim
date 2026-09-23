@@ -22,10 +22,8 @@ config_vscode-nvim/
     │   ├── plugins/      # 插件定义（ui/editor/coding/lsp）
     │   ├── plugins/lang/ # 语言配置（bash/lua/powershell）
     │   └── util/         # 工具函数
-    ├── images/
-    ├── LICENSE
-    ├── stylua.toml
-    └── README.md
+    ├── LICENSE           # Apache 2.0，派生自 mrbeardad/nvim
+    └── stylua.toml
 ```
 
 ## 两套配置的定位
