@@ -1,0 +1,32 @@
+{
+  "extensions.experimental.affinity": {
+    "vscode-neovim.vscode-neovim": 1
+  },
+
+  "vscode-neovim.neovimExecutablePaths.win32": "nvim",
+  "vscode-neovim.neovimExecutablePaths.linux": "nvim",
+  "vscode-neovim.neovimExecutablePaths.darwin": "nvim",
+
+  "vscode-neovim.NVIM_APPNAME": "vscode-nvim",
+
+  "vscode-neovim.ctrlKeysForInsertMode": [
+    "w", "a", "e", "o", "h", "u", "d", "k", "r", "n"
+  ],
+  "vscode-neovim.ctrlKeysForNormalMode": [
+    "w", "d", "u", "b", "o", "i", "a", "x", "v", "r", "j", "n"
+  ],
+
+  "vscode-neovim.compositeKeys": {
+    "jj": {
+      "cmd": "vscode-neovim.escape",
+      "keys": [
+        {
+          "key": "j",
+          "when": "editorTextFocus && neovim.mode == insert"
+        }
+      ]
+    }
+  },
+
+  "vscode-neovim.logOutputToConsole": false
+}

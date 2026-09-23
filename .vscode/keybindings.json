@@ -1,0 +1,105 @@
+[
+  {
+    "key": "ctrl+shift+a",
+    "command": "editor.action.selectAll",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "cursorHome",
+    "when": "editorTextFocus && !editorHasSelection"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "cursorHomeSelect",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "cursorEnd",
+    "when": "editorTextFocus && !editorHasSelection"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "cursorEndSelect",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "editor.action.joinLines",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+[",
+    "command": "-workbench.action.previousEditor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+]",
+    "command": "-workbench.action.nextEditor",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.view.explorer",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "-workbench.action.search.toggleQueryDetails"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "-workbench.view.debug"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "-panel.markers.togglePanel"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "-panel.output.togglePanel"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "-panel.debugConsole.togglePanel"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+
+  {
+    "key": "ctrl+tab",
+    "command": "-workbench.action.nextEditorInGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "-workbench.action.previousEditorInGroup",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+s",
+    "command": "-workbench.action.files.save",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "alt+up",
+    "command": "-editor.action.moveLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+down",
+    "command": "-editor.action.moveLinesDownAction",
+    "when": "editorTextFocus"
+  }
+]

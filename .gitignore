@@ -16,4 +16,6 @@ Thumbs.db
 
 # editor
 .idea/
-.vscode/
+
+# vscode local history
+.history/
