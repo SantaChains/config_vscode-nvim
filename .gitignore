@@ -1,0 +1,19 @@
+# swap
+*.swp
+*.swo
+swap/
+
+# backup
+*~
+*.bak
+
+# neovim state
+.netrwhist
+
+# os
+.DS_Store
+Thumbs.db
+
+# editor
+.idea/
+.vscode/
